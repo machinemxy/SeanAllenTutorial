@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22B4C4A623CC9E5D004579DF /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4C4A523CC9E5D004579DF /* FollowerListVC.swift */; };
 		22CE048C23C4BAD900E45812 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CE048B23C4BAD900E45812 /* AppDelegate.swift */; };
 		22CE048E23C4BAD900E45812 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CE048D23C4BAD900E45812 /* SceneDelegate.swift */; };
 		22CE049523C4BADA00E45812 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22CE049423C4BADA00E45812 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		22B4C4A523CC9E5D004579DF /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
 		22CE048823C4BAD900E45812 /* SeanAllenTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeanAllenTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22CE048B23C4BAD900E45812 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22CE048D23C4BAD900E45812 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				22CE048D23C4BAD900E45812 /* SceneDelegate.swift */,
 				22CE04D623C6214600E45812 /* SearchVC.swift */,
 				22CE04D823C6216700E45812 /* FavoritesListVC.swift */,
+				22B4C4A523CC9E5D004579DF /* FollowerListVC.swift */,
 				22CE04DA23C62D6A00E45812 /* GFButton.swift */,
 				22CE04DC23C749D700E45812 /* GFTextField.swift */,
 				22CE049423C4BADA00E45812 /* Assets.xcassets */,
@@ -147,6 +150,7 @@
 				22CE04D723C6214600E45812 /* SearchVC.swift in Sources */,
 				22CE04DB23C62D6A00E45812 /* GFButton.swift in Sources */,
 				22CE04D923C6216700E45812 /* FavoritesListVC.swift in Sources */,
+				22B4C4A623CC9E5D004579DF /* FollowerListVC.swift in Sources */,
 				22CE048C23C4BAD900E45812 /* AppDelegate.swift in Sources */,
 				22CE048E23C4BAD900E45812 /* SceneDelegate.swift in Sources */,
 			);
