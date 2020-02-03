@@ -1,5 +1,5 @@
 //
-//  ErrorManager.swift
+//  GFError.swift
 //  SeanAllenTutorial
 //
 //  Created by Ma Xueyuan on 2020/02/01.
@@ -8,7 +8,7 @@
 
 import Foundation
 
-enum ErrorMessage: String {
+enum GFError: String, Error {
     case invalidUsername = "This username created an invalid request. Please try again."
     case unableToComplete = "Uable to complete your request. Please check your internet connection."
     case invalidResponse = "Invalid response from the server. Please try again."
