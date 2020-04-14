@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		226177D72445AA2E008FE7BB /* UserInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226177D62445AA2E008FE7BB /* UserInfoVC.swift */; };
 		227530EA24210B80008B9E09 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227530E924210B80008B9E09 /* UIHelper.swift */; };
 		227530F12426334E008B9E09 /* GFEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227530F02426334E008B9E09 /* GFEmptyStateView.swift */; };
 		2292B4C623D9BD0400DD0568 /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2292B4C523D9BD0400DD0568 /* Follower.swift */; };
@@ -32,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		226177D62445AA2E008FE7BB /* UserInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoVC.swift; sourceTree = "<group>"; };
 		227530E924210B80008B9E09 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 		227530F02426334E008B9E09 /* GFEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFEmptyStateView.swift; sourceTree = "<group>"; };
 		2292B4C523D9BD0400DD0568 /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				22CE04D823C6216700E45812 /* FavoritesListVC.swift */,
 				22CE04D623C6214600E45812 /* SearchVC.swift */,
 				22AE0C1223CDFA02001DFA8A /* GFAlertVC.swift */,
+				226177D62445AA2E008FE7BB /* UserInfoVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -292,6 +295,7 @@
 				2292B4D123E877B500DD0568 /* FollowerCell.swift in Sources */,
 				2292B4D323E8783D00DD0568 /* GFAvatarImageView.swift in Sources */,
 				2292B4C823D9BD2A00DD0568 /* User.swift in Sources */,
+				226177D72445AA2E008FE7BB /* UserInfoVC.swift in Sources */,
 				22AE0C1323CDFA02001DFA8A /* GFAlertVC.swift in Sources */,
 				2292B4C623D9BD0400DD0568 /* Follower.swift in Sources */,
 				22AE0C1123CDF942001DFA8A /* GFBodyLabel.swift in Sources */,
