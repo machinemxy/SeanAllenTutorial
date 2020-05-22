@@ -79,7 +79,7 @@ class FollowerListVC: UIViewController {
                     }
                 }
                 
-                self.updateData(on: followers)
+                self.updateData(on: self.followers)
             case .failure(let error):
                 self.presentGFAlertOnMainThread(title: "Bad Stuff Happened", message: error.rawValue, buttonTitle: "OK")
             }
