@@ -39,6 +39,7 @@
 		22FE2BBA2477B59400AE36B1 /* GFFollowerItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FE2BB92477B59400AE36B1 /* GFFollowerItemVC.swift */; };
 		22FE2BBC2477B9C400AE36B1 /* DateEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FE2BBB2477B9C400AE36B1 /* DateEx.swift */; };
 		22FE2BBE2477B9FE00AE36B1 /* StringEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FE2BBD2477B9FE00AE36B1 /* StringEx.swift */; };
+		22FE2BC024796D2600AE36B1 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FE2BBF24796D2600AE36B1 /* PersistenceManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +77,7 @@
 		22FE2BB92477B59400AE36B1 /* GFFollowerItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFFollowerItemVC.swift; sourceTree = "<group>"; };
 		22FE2BBB2477B9C400AE36B1 /* DateEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateEx.swift; sourceTree = "<group>"; };
 		22FE2BBD2477B9FE00AE36B1 /* StringEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringEx.swift; sourceTree = "<group>"; };
+		22FE2BBF24796D2600AE36B1 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				2292B4CA23D9E71E00DD0568 /* NetworkManager.swift */,
+				22FE2BBF24796D2600AE36B1 /* PersistenceManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -331,6 +334,7 @@
 				22CE04DB23C62D6A00E45812 /* GFButton.swift in Sources */,
 				22FE2BBC2477B9C400AE36B1 /* DateEx.swift in Sources */,
 				22CE04D923C6216700E45812 /* FavoritesListVC.swift in Sources */,
+				22FE2BC024796D2600AE36B1 /* PersistenceManager.swift in Sources */,
 				2292B4D123E877B500DD0568 /* FollowerCell.swift in Sources */,
 				2292B4D323E8783D00DD0568 /* GFAvatarImageView.swift in Sources */,
 				22FE2BB82477B3F400AE36B1 /* GFRepoItemVC.swift in Sources */,
