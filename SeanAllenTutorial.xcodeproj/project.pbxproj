@@ -40,6 +40,7 @@
 		22FE2BBC2477B9C400AE36B1 /* DateEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FE2BBB2477B9C400AE36B1 /* DateEx.swift */; };
 		22FE2BBE2477B9FE00AE36B1 /* StringEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FE2BBD2477B9FE00AE36B1 /* StringEx.swift */; };
 		22FE2BC024796D2600AE36B1 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FE2BBF24796D2600AE36B1 /* PersistenceManager.swift */; };
+		22FE2BC2247A5DCA00AE36B1 /* FavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FE2BC1247A5DCA00AE36B1 /* FavoriteCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +79,7 @@
 		22FE2BBB2477B9C400AE36B1 /* DateEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateEx.swift; sourceTree = "<group>"; };
 		22FE2BBD2477B9FE00AE36B1 /* StringEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringEx.swift; sourceTree = "<group>"; };
 		22FE2BBF24796D2600AE36B1 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		22FE2BC1247A5DCA00AE36B1 /* FavoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				2292B4D023E877B500DD0568 /* FollowerCell.swift */,
+				22FE2BC1247A5DCA00AE36B1 /* FavoriteCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -335,6 +338,7 @@
 				22FE2BBC2477B9C400AE36B1 /* DateEx.swift in Sources */,
 				22CE04D923C6216700E45812 /* FavoritesListVC.swift in Sources */,
 				22FE2BC024796D2600AE36B1 /* PersistenceManager.swift in Sources */,
+				22FE2BC2247A5DCA00AE36B1 /* FavoriteCell.swift in Sources */,
 				2292B4D123E877B500DD0568 /* FollowerCell.swift in Sources */,
 				2292B4D323E8783D00DD0568 /* GFAvatarImageView.swift in Sources */,
 				22FE2BB82477B3F400AE36B1 /* GFRepoItemVC.swift in Sources */,
