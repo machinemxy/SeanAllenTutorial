@@ -41,6 +41,7 @@
 		22FE2BBE2477B9FE00AE36B1 /* StringEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FE2BBD2477B9FE00AE36B1 /* StringEx.swift */; };
 		22FE2BC024796D2600AE36B1 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FE2BBF24796D2600AE36B1 /* PersistenceManager.swift */; };
 		22FE2BC2247A5DCA00AE36B1 /* FavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FE2BC1247A5DCA00AE36B1 /* FavoriteCell.swift */; };
+		22FE2BC4247BA7C300AE36B1 /* GFTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FE2BC3247BA7C300AE36B1 /* GFTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +81,7 @@
 		22FE2BBD2477B9FE00AE36B1 /* StringEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringEx.swift; sourceTree = "<group>"; };
 		22FE2BBF24796D2600AE36B1 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
 		22FE2BC1247A5DCA00AE36B1 /* FavoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCell.swift; sourceTree = "<group>"; };
+		22FE2BC3247BA7C300AE36B1 /* GFTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 				22FE2BB52477AE9000AE36B1 /* GFItemInfoVC.swift */,
 				22FE2BB72477B3F300AE36B1 /* GFRepoItemVC.swift */,
 				22FE2BB92477B59400AE36B1 /* GFFollowerItemVC.swift */,
+				22FE2BC3247BA7C300AE36B1 /* GFTabBarController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -357,6 +360,7 @@
 				22FE2BB42477A98F00AE36B1 /* GFItemInfoView.swift in Sources */,
 				22CE048E23C4BAD900E45812 /* SceneDelegate.swift in Sources */,
 				2227D1942460678F00D84333 /* Constants.swift in Sources */,
+				22FE2BC4247BA7C300AE36B1 /* GFTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
