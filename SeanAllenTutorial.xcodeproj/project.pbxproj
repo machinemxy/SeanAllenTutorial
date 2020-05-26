@@ -42,6 +42,7 @@
 		22FE2BC024796D2600AE36B1 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FE2BBF24796D2600AE36B1 /* PersistenceManager.swift */; };
 		22FE2BC2247A5DCA00AE36B1 /* FavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FE2BC1247A5DCA00AE36B1 /* FavoriteCell.swift */; };
 		22FE2BC4247BA7C300AE36B1 /* GFTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FE2BC3247BA7C300AE36B1 /* GFTabBarController.swift */; };
+		22FE2BC6247CE5F800AE36B1 /* GFDataLoadingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FE2BC5247CE5F800AE36B1 /* GFDataLoadingVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +83,7 @@
 		22FE2BBF24796D2600AE36B1 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
 		22FE2BC1247A5DCA00AE36B1 /* FavoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCell.swift; sourceTree = "<group>"; };
 		22FE2BC3247BA7C300AE36B1 /* GFTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTabBarController.swift; sourceTree = "<group>"; };
+		22FE2BC5247CE5F800AE36B1 /* GFDataLoadingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFDataLoadingVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 				22FE2BB72477B3F300AE36B1 /* GFRepoItemVC.swift */,
 				22FE2BB92477B59400AE36B1 /* GFFollowerItemVC.swift */,
 				22FE2BC3247BA7C300AE36B1 /* GFTabBarController.swift */,
+				22FE2BC5247CE5F800AE36B1 /* GFDataLoadingVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -334,6 +337,7 @@
 				22FE2BBE2477B9FE00AE36B1 /* StringEx.swift in Sources */,
 				2227D18F246056CB00D84333 /* GFUserInfoHeaderVC.swift in Sources */,
 				22CE04DD23C749D700E45812 /* GFTextField.swift in Sources */,
+				22FE2BC6247CE5F800AE36B1 /* GFDataLoadingVC.swift in Sources */,
 				2227D191246058FA00D84333 /* GFSecondaryBodyLabel.swift in Sources */,
 				22CE04D723C6214600E45812 /* SearchVC.swift in Sources */,
 				227530F12426334E008B9E09 /* GFEmptyStateView.swift in Sources */,
