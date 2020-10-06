@@ -1,5 +1,5 @@
 //
-//  NetworkManager.swift
+//  NetworkManagerOrigin.swift
 //  SeanAllenTutorial
 //
 //  Created by Ma Xueyuan on 2020/01/23.
@@ -7,10 +7,9 @@
 //
 
 import UIKit
-import Alamofire
 
-class NetworkManager {
-    static let shared = NetworkManager()
+class NetworkManagerOrigin {
+    static let shared = NetworkManagerOrigin()
     private let baseURL = "https://api.github.com/users/"
     let cache = NSCache<NSString, UIImage>()
     
@@ -26,8 +25,17 @@ class NetworkManager {
             return
         }
         
-        AF.request(url).responseJSON { (response) in
-            guard let data = response.data else {
+        let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
+            if let _ = error {
+                completed(.failure(.unableToComplete))
+            }
+            
+            guard let response = response as? HTTPURLResponse, response.statusCode == 200 else {
+                completed(.failure(.invalidResponse))
+                return
+            }
+            
+            guard let data = data else {
                 completed(.failure(.invalidData))
                 return
             }
@@ -41,6 +49,8 @@ class NetworkManager {
                 completed(.failure(.invalidData))
             }
         }
+        
+        task.resume()
     }
     
     func getUserInfo(for username: String, completed: @escaping (Result<User, GFError>) -> Void) {
@@ -51,8 +61,17 @@ class NetworkManager {
             return
         }
         
-        AF.request(url).responseJSON { (response) in
-            guard let data = response.data else {
+        let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
+            if let _ = error {
+                completed(.failure(.unableToComplete))
+            }
+            
+            guard let response = response as? HTTPURLResponse, response.statusCode == 200 else {
+                completed(.failure(.invalidResponse))
+                return
+            }
+            
+            guard let data = data else {
                 completed(.failure(.invalidData))
                 return
             }
@@ -67,6 +86,8 @@ class NetworkManager {
                 completed(.failure(.invalidData))
             }
         }
+        
+        task.resume()
     }
     
     func downloadImage(from urlString: String, completed: @escaping (UIImage?) -> Void) {
@@ -80,14 +101,19 @@ class NetworkManager {
             return
         }
         
-        AF.request(url).responseData { (response) in
-            guard let data = response.data,
-                  let image = UIImage(data: data) else {
-                completed(nil)
-                return
-            }
-            
+        let task = URLSession.shared.dataTask(with: url) { [unowned self] data, response, error in
+            guard error == nil,
+                let response = response as? HTTPURLResponse,
+                response.statusCode == 200,
+                let data = data,
+                let image = UIImage(data: data) else {
+                    completed(nil)
+                    return
+                }
+            self.cache.setObject(image, forKey: urlString as NSString)
             completed(image)
         }
+        
+        task.resume()
     }
 }
