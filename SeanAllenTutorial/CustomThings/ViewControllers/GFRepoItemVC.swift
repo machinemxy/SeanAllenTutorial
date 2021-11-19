@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol RepoItemVCDelegate: class {
+protocol RepoItemVCDelegate: AnyObject {
     func didTapGitHubProfile(for user: User)
 }
 

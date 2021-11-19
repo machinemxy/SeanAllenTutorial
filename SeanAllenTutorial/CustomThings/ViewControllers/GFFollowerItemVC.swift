@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol FollowerItemVCDelegate: class {
+protocol FollowerItemVCDelegate: AnyObject {
     func didTapGetFollowers(for user: User)
 }
 
